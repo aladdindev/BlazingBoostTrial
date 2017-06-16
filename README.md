@@ -43,12 +43,12 @@ The second file is phinx configuration file. The project currently uses the deve
 
 ```phinx.yml
 development:
-	...
-	host: localhost
-	name: currency
-	user: root
-	pass: ''
-	...
+  ...
+  host: localhost
+  name: currency
+  user: root
+  pass: ''
+  ...
 ```
 
 ### Database Migration
