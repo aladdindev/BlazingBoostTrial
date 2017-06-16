@@ -1,0 +1,75 @@
+.navbar{
+	border:none;
+	-webkit-box-shadow:0 2px 4px rgba(0,0,0,.08);
+	box-shadow:0 2px 4px rgba(0,0,0,.08)
+}
+
+.page-content {
+    padding: 20px;
+}
+
+html {
+	height: 100%;
+}
+
+body {
+	background: #f1f4f5;
+	height: 100%;
+}
+
+.container {
+	height: 100%;
+	display: table;
+	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+.center-contain {
+	width: 48%;
+}
+
+.center-screen {
+	display: table-cell;
+    vertical-align: middle;
+}
+
+.exchange-title {
+    font-size: 34px;
+    font-weight: 700;
+}
+
+.exchange-title-currency {
+    color: #787d82;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.currency-control {
+	margin-top: 35px;
+	margin-bottom: 35px;
+}
+
+.currency-select {
+	width: 235px;
+}
+
+#convert {
+	width: 42px;
+}
+
+#convert:focus {
+	outline: none;
+}
+
+.currency-value {
+	width: 100px !important;
+}
+
+.exchange-text{
+	text-align: center;
+}
+
+select {
+	height: 36px;
+    padding: 6px 27px 6px 15px;
+    line-height: 1.57142857;
+}
